@@ -1,0 +1,43 @@
+@media screen and (max-width:1024px){
+    .wrapper{
+     width: 85vw;
+    } 
+    .container{
+     height: 26vmin;
+     width: 26vmin;
+     font-size: 18px !important;
+    }
+ }
+ @media screen and (max-width:1200px){
+     .wrapper{
+      width: 85vw;
+     } 
+     .container{
+      height: 26vmin;
+      width: 26vmin;
+      font-size: 22px;
+     }
+  }
+ @media screen and (max-width:768px){
+     .wrapper{
+      width: 90vw;
+      flex-wrap: wrap;
+      gap: 30px;
+     } 
+     .container{
+      height: 30vmin;
+      width: calc(-50% -40px);
+      font-size: 14px !important;
+     }
+  }
+  @media screen and (max-width:480px){
+     .wrapper{
+      gap: 15px !important;
+     } 
+     .container{
+      height: 25vmin !important;
+      width:100% !important;
+      font-size: 8px !important;
+     }
+  }
+ 
